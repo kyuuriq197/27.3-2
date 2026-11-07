@@ -1,0 +1,34 @@
+﻿{
+    "ComparedUtc":  "2026-11-06T17:31:56.4363185Z",
+    "PreviousSource":  "C:\\Users\\Filimoshki\\Downloads\\iphone14-5-ios-27-2-ipsw-analysis-main\\iphone14-5-ios-27-2-ipsw-analysis-main\\work\\ipsw_inventory.txt",
+    "CurrentSource":  "C:\\Users\\Filimoshki\\Downloads\\iphone14-5-ios-27-2-ipsw-analysis-main\\iphone14-5-ios-27-2-ipsw-analysis-main\\research\\ios-27.3\\firmware\\ipsw_inventory.csv",
+    "PreviousRecordsParsed":  96,
+    "CurrentRecordsParsed":  113,
+    "Counts":  [
+                   {
+                       "Status":  "Removed",
+                       "Count":  16
+                   },
+                   {
+                       "Status":  "Added",
+                       "Count":  33
+                   },
+                   {
+                       "Status":  "SizeChanged",
+                       "Count":  19
+                   },
+                   {
+                       "Status":  "HashPrefixChanged",
+                       "Count":  23
+                   },
+                   {
+                       "Status":  "SameSizeAndHashPrefix",
+                       "Count":  38
+                   }
+               ],
+    "Limitations":  [
+                        "Previous inventory records only retain 64 bits (16 hex characters) of each SHA-256 digest.",
+                        "Matching names, sizes, and digest prefixes are inventory-level observations, not proof of byte-for-byte identity.",
+                        "A changed hash or size does not establish a functional change."
+                    ]
+}

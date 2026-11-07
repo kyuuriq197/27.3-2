@@ -1,0 +1,17 @@
+﻿{
+    "IpswPath":  "C:\\Users\\Filimoshki\\Downloads\\iPhone14,5_27.3_24C5037i_Restore.ipsw",
+    "IpswBuild":  "24C5037i",
+    "ToolVersion":  "Version: 3.1.743, BuildCommit: b2c156960c79b0eefe0885dbb32cce7eef77cf2d",
+    "KernelPath":  "C:\\Users\\Filimoshki\\Downloads\\iphone14-5-ios-27-2-ipsw-analysis-main\\iphone14-5-ios-27-2-ipsw-analysis-main\\research\\ios-27.3\\data\\kernel\\24C5037i__iPhone14,5\\kernelcache.release.IPhone14,5",
+    "KernelBytes":  68354048,
+    "KernelSha256":  "33e939038967cff30526d7e2ba7aca0ce3ad5ffc781b0794dca6cb796f356db1",
+    "XnuVersion":  "13432.60.57~17",
+    "DarwinVersion":  "27.3.0",
+    "Architecture":  "ARM64",
+    "Cpu":  "T8110",
+    "MachOUuid":  "42A494C1-C9C1-5292-D885-F2F91A806121",
+    "KextCount":  269,
+    "UniqueBundlePaths":  269,
+    "UniqueBundleIdentifiers":  269,
+    "Transcript":  "C:\\Users\\Filimoshki\\Downloads\\iphone14-5-ios-27-2-ipsw-analysis-main\\iphone14-5-ios-27-2-ipsw-analysis-main\\research\\ios-27.3\\logs\\kernel-analysis-run.txt"
+}

@@ -1,0 +1,47 @@
+﻿{
+    "Source":  {
+                   "IpswPath":  "C:\\Users\\Filimoshki\\Downloads\\iPhone14,5_27.3_24C5037i_Restore.ipsw",
+                   "FileBytes":  11483532526,
+                   "FileSha256":  "b14c3a1d6e6267fc0bac209140d084799255d818cb84b3f23d2cc9e0036486cc"
+               },
+    "Build":  {
+                  "ProductVersion":  "27.3",
+                  "ProductBuildVersion":  "24C5037i",
+                  "RestoreProductVersion":  "27.3",
+                  "RestoreProductBuildVersion":  "24C5037i",
+                  "BuildTrain":  "RaveCSeed",
+                  "SupportedProductTypes":  [
+                                                "iPhone14,5"
+                                            ]
+              },
+    "Archive":  {
+                    "EntryCount":  113,
+                    "EntryUncompressedBytes":  11639139444,
+                    "EntryCompressedBytes":  11483514840
+                },
+    "BuildIdentities":  [
+                            {
+                                "Variant":  "Developer Erase Install (IPSW)",
+                                "DeviceClass":  "d17ap",
+                                "RestoreBehavior":  "Erase",
+                                "RestoreRamDisk":  "141-93054-032.dmg",
+                                "KernelCache":  "kernelcache.release.iphone14",
+                                "OS":  "141-93752-026.dmg.aea"
+                            },
+                            {
+                                "Variant":  "Developer Upgrade Install (IPSW)",
+                                "DeviceClass":  "d17ap",
+                                "RestoreBehavior":  "Update",
+                                "RestoreRamDisk":  "141-92811-032.dmg",
+                                "KernelCache":  "kernelcache.release.iphone14",
+                                "OS":  "141-93752-026.dmg.aea"
+                            }
+                        ],
+    "Verification":  {
+                         "ZipOpened":  true,
+                         "AllEntryStreamsHashed":  true,
+                         "WholeArchiveSha256Calculated":  true,
+                         "AppleSignatureVerified":  false,
+                         "Notes":  "This script inventories ZIP contents and computes hashes; it does not validate Apple signatures or establish Apple provenance."
+                     }
+}

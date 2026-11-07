@@ -1,0 +1,3 @@
+SHA256  b14c3a1d6e6267fc0bac209140d084799255d818cb84b3f23d2cc9e0036486cc
+BYTES   11483532526
+FILE    C:\Users\Filimoshki\Downloads\iPhone14,5_27.3_24C5037i_Restore.ipsw

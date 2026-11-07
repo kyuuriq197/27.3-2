@@ -1,0 +1,285 @@
+﻿Magic         = 64-bit MachO
+Type          = FILESET
+CPU           = AARCH64, ARM64e caps: KER00
+Commands      = 265 (Size: 18944)
+Flags         = None
+000: LC_UUID                     42A494C1-C9C1-5292-D885-F2F91A806121
+001: LC_BUILD_VERSION            Platform: Unknown, SDK: 0
+002: LC_UNIXTHREAD               Threads: 1
+       ARM_THREAD_STATE64:
+          x0: 0x0000000000000000   x1: 0x0000000000000000   x2: 0x0000000000000000   x3: 0x0000000000000000
+          x4: 0x0000000000000000   x5: 0x0000000000000000   x6: 0x0000000000000000   x7: 0x0000000000000000
+          x8: 0x0000000000000000   x9: 0x0000000000000000  x10: 0x0000000000000000  x11: 0x0000000000000000
+         x12: 0x0000000000000000  x13: 0x0000000000000000  x14: 0x0000000000000000  x15: 0x0000000000000000
+         x16: 0xfffffff00a2b0000  x17: 0x0000000000000000  x18: 0x0000000000000000  x19: 0x0000000000000000
+         x20: 0x0000000000000000  x21: 0x0000000000000000  x22: 0x0000000000000000  x23: 0x0000000000000000
+         x24: 0x0000000000000000  x25: 0x0000000000000000  x26: 0x0000000000000000  x27: 0x0000000000000000
+         x28: 0x0000000000000000   fp: 0x0000000000000000   lr: 0x0000000000000000
+          sp: 0x0000000000000000   pc: 0xfffffff00ab74000 cpsr: 0x00000000
+         esr: 0x00000000
+003: LC_DYLD_CHAINED_FIXUPS      offset=0x00412c000 size=0x4be
+004: LC_SEGMENT_64 sz=0x00008000 off=0x00000000-0x00008000 addr=0xfffffff007004000-0xfffffff00700c000 r--/r--   __TEXT            
+005: LC_SEGMENT_64 sz=0x00bd0000 off=0x00008000-0x00bd8000 addr=0xfffffff00700c000-0xfffffff007bdc000 r--/r--   __PRELINK_TEXT    
+	sz=0x00bd0000 off=0x00008000-0x00bd8000 addr=0xfffffff00700c000-0xfffffff007bdc000       __PRELINK_TEXT.__text            PureInstructions|SomeInstructions 
+006: LC_SEGMENT_64 sz=0x00550000 off=0x00bd8000-0x01128000 addr=0xfffffff007bdc000-0xfffffff00812c000 r--/r--   __DATA_CONST      
+007: LC_SEGMENT_64 sz=0x0004c000 off=0x01128000-0x01174000 addr=0xfffffff00812c000-0xfffffff008178000 r--/r--   __DATA_SPTM       
+008: LC_SEGMENT_64 sz=0x029fc000 off=0x01174000-0x03b70000 addr=0xfffffff008178000-0xfffffff00ab74000 r-x/r-x   __TEXT_EXEC       
+009: LC_SEGMENT_64 sz=0x00008000 off=0x03b70000-0x03b78000 addr=0xfffffff00ab74000-0xfffffff00ab7c000 r-x/r-x   __TEXT_BOOT_EXEC  
+010: LC_SEGMENT_64 sz=0x00240000 off=0x03b78000-0x03db8000 addr=0xfffffff00ab7c000-0xfffffff00adbc000 rw-/rw-   __PRELINK_INFO    
+	sz=0x00240000 off=0x03b78000-0x03db8000 addr=0xfffffff00ab7c000-0xfffffff00adbc000       __PRELINK_INFO.__info             
+011: LC_SEGMENT_64 sz=0x002c0000 off=0x03db8000-0x04078000 addr=0xfffffff00adbc000-0xfffffff00b07c000 rw-/rw-   __DATA            
+012: LC_SEGMENT_64 sz=0x000b8000 off=0x04078000-0x04130000 addr=0xfffffff00b07c000-0xfffffff00b134000 r--/r--   __LINKEDIT        
+013: LC_FILESET_ENTRY            offset=0x000008000 addr=0xfffffff00700c000 com.apple.kernel
+014: LC_FILESET_ENTRY            offset=0x000104000 addr=0xfffffff007108000 com.apple.kec.Libm
+015: LC_FILESET_ENTRY            offset=0x00010b0a0 addr=0xfffffff00710f0a0 com.apple.kec.pthread
+016: LC_FILESET_ENTRY            offset=0x00010be60 addr=0xfffffff00710fe60 com.apple.driver.AFKHIDTBDevice
+017: LC_FILESET_ENTRY            offset=0x00010e140 addr=0xfffffff007112140 com.apple.AGXFirmwareKextG14PRTBuddy
+018: LC_FILESET_ENTRY            offset=0x00010ef20 addr=0xfffffff007112f20 com.apple.AGXFirmwareKextRTBuddy64
+019: LC_FILESET_ENTRY            offset=0x000112f20 addr=0xfffffff007116f20 com.apple.AGXG14P
+020: LC_FILESET_ENTRY            offset=0x000124ca0 addr=0xfffffff007128ca0 com.apple.security.AKSAnalytics
+021: LC_FILESET_ENTRY            offset=0x00012f510 addr=0xfffffff007133510 com.apple.driver.AOPTouchKext
+022: LC_FILESET_ENTRY            offset=0x00012fe60 addr=0xfffffff007133e60 com.apple.driver.ASIOKit
+023: LC_FILESET_ENTRY            offset=0x000139730 addr=0xfffffff00713d730 com.apple.AUC
+024: LC_FILESET_ENTRY            offset=0x00013c420 addr=0xfffffff007140420 com.apple.driver.AppleA7IOP-ASCWrap-v4
+025: LC_FILESET_ENTRY            offset=0x00013cd10 addr=0xfffffff007140d10 com.apple.driver.AppleA7IOP
+026: LC_FILESET_ENTRY            offset=0x00013e0c0 addr=0xfffffff0071420c0 com.apple.driver.AppleALSColorSensor
+027: LC_FILESET_ENTRY            offset=0x000143230 addr=0xfffffff007147230 com.apple.driver.AppleAOPAudio
+028: LC_FILESET_ENTRY            offset=0x000150030 addr=0xfffffff007154030 com.apple.driver.AppleAOPVoiceTrigger
+029: LC_FILESET_ENTRY            offset=0x000153cc0 addr=0xfffffff007157cc0 com.apple.iokit.AppleARMIISAudio
+030: LC_FILESET_ENTRY            offset=0x00015a080 addr=0xfffffff00715e080 com.apple.driver.AppleARMPMU
+031: LC_FILESET_ENTRY            offset=0x00015d4e0 addr=0xfffffff0071614e0 com.apple.driver.AppleARMPlatform
+032: LC_FILESET_ENTRY            offset=0x00016dee0 addr=0xfffffff007171ee0 com.apple.driver.AppleARMWatchdogTimer
+033: LC_FILESET_ENTRY            offset=0x00016f980 addr=0xfffffff007173980 com.apple.driver.AppleAVD
+034: LC_FILESET_ENTRY            offset=0x00028ad90 addr=0xfffffff00728ed90 com.apple.driver.AppleAVE2
+035: LC_FILESET_ENTRY            offset=0x00037de70 addr=0xfffffff007381e70 com.apple.driver.AppleAcornDisplayPMU
+036: LC_FILESET_ENTRY            offset=0x00037e840 addr=0xfffffff007382840 com.apple.driver.AppleActuatorDriver
+037: LC_FILESET_ENTRY            offset=0x000380660 addr=0xfffffff007384660 com.apple.driver.AppleAstrisGpioProbe
+038: LC_FILESET_ENTRY            offset=0x0003814a0 addr=0xfffffff0073854a0 com.apple.driver.AppleAudioClockLibs
+039: LC_FILESET_ENTRY            offset=0x000381ce0 addr=0xfffffff007385ce0 com.apple.driver.AppleAuthCP
+040: LC_FILESET_ENTRY            offset=0x000386810 addr=0xfffffff00738a810 com.apple.driver.AppleAvalancheErrorHandler
+041: LC_FILESET_ENTRY            offset=0x000387b60 addr=0xfffffff00738bb60 com.apple.driver.AppleBSDKextStarter
+042: LC_FILESET_ENTRY            offset=0x0003881f0 addr=0xfffffff00738c1f0 com.apple.driver.AppleBasebandM20
+043: LC_FILESET_ENTRY            offset=0x00039ce50 addr=0xfffffff0073a0e50 com.apple.driver.AppleBasebandPCI
+044: LC_FILESET_ENTRY            offset=0x0003b0020 addr=0xfffffff0073b4020 com.apple.driver.AppleBasebandPCIMAVControl
+045: LC_FILESET_ENTRY            offset=0x0003ba190 addr=0xfffffff0073be190 com.apple.driver.AppleBasebandPCIMAVPDP
+046: LC_FILESET_ENTRY            offset=0x0003bfcd0 addr=0xfffffff0073c3cd0 com.apple.driver.AppleBluetoothDebug
+047: LC_FILESET_ENTRY            offset=0x0003c1c30 addr=0xfffffff0073c5c30 com.apple.driver.AppleBluetoothDebugService
+048: LC_FILESET_ENTRY            offset=0x0003c2240 addr=0xfffffff0073c6240 com.apple.driver.AppleBluetoothModule
+049: LC_FILESET_ENTRY            offset=0x0003c4f40 addr=0xfffffff0073c8f40 com.apple.driver.AppleC26Charger
+050: LC_FILESET_ENTRY            offset=0x0003c7f60 addr=0xfffffff0073cbf60 com.apple.driver.AppleCSEmbeddedAudio
+051: LC_FILESET_ENTRY            offset=0x0003c8df0 addr=0xfffffff0073ccdf0 com.apple.driver.AppleCallbackPowerSource
+052: LC_FILESET_ENTRY            offset=0x0003ca5d0 addr=0xfffffff0073ce5d0 com.apple.driver.AppleConvergedIPCOLYBTControl
+053: LC_FILESET_ENTRY            offset=0x0003d2a10 addr=0xfffffff0073d6a10 com.apple.driver.AppleConvergedPCI
+054: LC_FILESET_ENTRY            offset=0x0003d9aa0 addr=0xfffffff0073ddaa0 com.apple.driver.AppleDCP
+055: LC_FILESET_ENTRY            offset=0x0003dbfa0 addr=0xfffffff0073dffa0 com.apple.driver.AppleDCPDPTXProxy
+056: LC_FILESET_ENTRY            offset=0x0003de0a0 addr=0xfffffff0073e20a0 com.apple.driver.AppleDiagnosticDataAccessReadOnly
+057: LC_FILESET_ENTRY            offset=0x0003de990 addr=0xfffffff0073e2990 com.apple.driver.AppleDialogPMU
+058: LC_FILESET_ENTRY            offset=0x0003df5b0 addr=0xfffffff0073e35b0 com.apple.driver.AppleDiskImages2
+059: LC_FILESET_ENTRY            offset=0x0003e5c70 addr=0xfffffff0073e9c70 com.apple.driver.AppleDockChannel
+060: LC_FILESET_ENTRY            offset=0x0003e7810 addr=0xfffffff0073eb810 com.apple.driver.AppleEffaceableBlockDevice
+061: LC_FILESET_ENTRY            offset=0x0003e7f50 addr=0xfffffff0073ebf50 com.apple.driver.AppleEffaceableStorage
+062: LC_FILESET_ENTRY            offset=0x0003e9a60 addr=0xfffffff0073eda60 com.apple.driver.AppleEmbeddedAudio
+063: LC_FILESET_ENTRY            offset=0x0003f1990 addr=0xfffffff0073f5990 com.apple.driver.AppleAOPAD5860
+064: LC_FILESET_ENTRY            offset=0x0003f3780 addr=0xfffffff0073f7780 com.apple.driver.AppleAOPHaptics
+065: LC_FILESET_ENTRY            offset=0x0003f49b0 addr=0xfffffff0073f89b0 com.apple.driver.AppleCS35L27Amp
+066: LC_FILESET_ENTRY            offset=0x000400990 addr=0xfffffff007404990 com.apple.driver.AppleCS42L77Audio
+067: LC_FILESET_ENTRY            offset=0x0004152f0 addr=0xfffffff0074192f0 com.apple.driver.AppleEmbeddedAudioLibs
+068: LC_FILESET_ENTRY            offset=0x00041ad80 addr=0xfffffff00741ed80 com.apple.driver.AppleEmbeddedAudioResourceManager
+069: LC_FILESET_ENTRY            offset=0x00041dab0 addr=0xfffffff007421ab0 com.apple.driver.AppleEmbeddedGPS
+070: LC_FILESET_ENTRY            offset=0x00041e4f0 addr=0xfffffff0074224f0 com.apple.driver.AppleEmbeddedLightSensor
+071: LC_FILESET_ENTRY            offset=0x000424290 addr=0xfffffff007428290 com.apple.driver.AppleEmbeddedMikeyBus
+072: LC_FILESET_ENTRY            offset=0x0004269f0 addr=0xfffffff00742a9f0 com.apple.driver.AppleEmbeddedPCIE
+073: LC_FILESET_ENTRY            offset=0x0004317e0 addr=0xfffffff0074357e0 com.apple.driver.AppleEmbeddedTempSensor
+074: LC_FILESET_ENTRY            offset=0x000434ad0 addr=0xfffffff007438ad0 com.apple.driver.AppleEmbeddedTouchEEPROM
+075: LC_FILESET_ENTRY            offset=0x0004370d0 addr=0xfffffff00743b0d0 com.apple.driver.AppleEmbeddedUSB
+076: LC_FILESET_ENTRY            offset=0x0004387d0 addr=0xfffffff00743c7d0 com.apple.driver.AppleEmbeddedUSBHost
+077: LC_FILESET_ENTRY            offset=0x000439fa0 addr=0xfffffff00743dfa0 com.apple.kec.AppleEncryptedArchive
+078: LC_FILESET_ENTRY            offset=0x00043a4c0 addr=0xfffffff00743e4c0 com.apple.driver.AppleEventLogHandler
+079: LC_FILESET_ENTRY            offset=0x00043b180 addr=0xfffffff00743f180 com.apple.driver.AppleFAN53740
+080: LC_FILESET_ENTRY            offset=0x00043b930 addr=0xfffffff00743f930 com.apple.AppleFSCompression.AppleFSCompressionTypeZlib
+081: LC_FILESET_ENTRY            offset=0x00043f960 addr=0xfffffff007443960 com.apple.driver.AppleFireStormErrorHandler
+082: LC_FILESET_ENTRY            offset=0x000440cb0 addr=0xfffffff007444cb0 com.apple.driver.AppleFirmwareKit
+083: LC_FILESET_ENTRY            offset=0x0004485e0 addr=0xfffffff00744c5e0 com.apple.driver.AppleFirmwareUpdateKext
+084: LC_FILESET_ENTRY            offset=0x000449440 addr=0xfffffff00744d440 com.apple.driver.AppleGPIOICController
+085: LC_FILESET_ENTRY            offset=0x00044ad10 addr=0xfffffff00744ed10 com.apple.driver.AppleGameControllerPersonality
+086: LC_FILESET_ENTRY            offset=0x00044b7f0 addr=0xfffffff00744f7f0 com.apple.driver.AppleGenericMultitouch
+087: LC_FILESET_ENTRY            offset=0x0004559b0 addr=0xfffffff0074599b0 com.apple.driver.AppleH10PearlCameraInterface
+088: LC_FILESET_ENTRY            offset=0x000456790 addr=0xfffffff00745a790 com.apple.driver.AppleH11ANEInterface
+089: LC_FILESET_ENTRY            offset=0x0004acbb0 addr=0xfffffff0074b0bb0 com.apple.driver.AppleH13CameraInterface
+090: LC_FILESET_ENTRY            offset=0x0004ebb10 addr=0xfffffff0074efb10 com.apple.driver.AppleHIDKeyboard
+091: LC_FILESET_ENTRY            offset=0x0004ed410 addr=0xfffffff0074f1410 com.apple.driver.AppleHIDTransport
+092: LC_FILESET_ENTRY            offset=0x0004faa30 addr=0xfffffff0074fea30 com.apple.driver.AppleHIDTransportFIFO
+093: LC_FILESET_ENTRY            offset=0x0004fdca0 addr=0xfffffff007501ca0 com.apple.driver.AppleHIDTransportMailbox
+094: LC_FILESET_ENTRY            offset=0x000501520 addr=0xfffffff007505520 com.apple.driver.AppleHIDTransportSCMCommon
+095: LC_FILESET_ENTRY            offset=0x0005021f0 addr=0xfffffff0075061f0 com.apple.driver.AppleHIDTransportSPI
+096: LC_FILESET_ENTRY            offset=0x00050a8f0 addr=0xfffffff00750e8f0 com.apple.driver.AppleHapticsSupportLEAP
+097: LC_FILESET_ENTRY            offset=0x000513640 addr=0xfffffff007517640 com.apple.driver.AppleHapticsSupportNVM
+098: LC_FILESET_ENTRY            offset=0x000514010 addr=0xfffffff007518010 com.apple.driver.AppleIDAMInterface
+099: LC_FILESET_ENTRY            offset=0x000514ce0 addr=0xfffffff007518ce0 com.apple.driver.AppleIDV
+100: LC_FILESET_ENTRY            offset=0x0005167a0 addr=0xfffffff00751a7a0 com.apple.driver.AppleIISController
+101: LC_FILESET_ENTRY            offset=0x000517cb0 addr=0xfffffff00751bcb0 com.apple.driver.AppleIPAppender
+102: LC_FILESET_ENTRY            offset=0x0005189e0 addr=0xfffffff00751c9e0 com.apple.security.AppleImage4
+103: LC_FILESET_ENTRY            offset=0x00052e2a0 addr=0xfffffff0075322a0 com.apple.driver.AppleInputDeviceSupport
+104: LC_FILESET_ENTRY            offset=0x0005325a0 addr=0xfffffff0075365a0 com.apple.driver.AppleInterruptControllerV2
+105: LC_FILESET_ENTRY            offset=0x000533230 addr=0xfffffff007537230 com.apple.driver.AppleJPEGDriver
+106: LC_FILESET_ENTRY            offset=0x000543d80 addr=0xfffffff007547d80 com.apple.driver.AppleLockdownMode
+107: LC_FILESET_ENTRY            offset=0x000548ec0 addr=0xfffffff00754cec0 com.apple.driver.AppleM2ScalerCSCDriver
+108: LC_FILESET_ENTRY            offset=0x000632110 addr=0xfffffff007636110 com.apple.driver.AppleM68Buttons
+109: LC_FILESET_ENTRY            offset=0x000637fa0 addr=0xfffffff00763bfa0 com.apple.driver.AppleMCA2-T8110
+110: LC_FILESET_ENTRY            offset=0x00063e1d0 addr=0xfffffff0076421d0 com.apple.kext.AppleMatch
+111: LC_FILESET_ENTRY            offset=0x00063e720 addr=0xfffffff007642720 com.apple.driver.AppleMikeyBusAudio
+112: LC_FILESET_ENTRY            offset=0x000642b50 addr=0xfffffff007646b50 com.apple.driver.AppleMobileApNonce
+113: LC_FILESET_ENTRY            offset=0x000644ba0 addr=0xfffffff007648ba0 com.apple.driver.AppleMobileDispH14P-DCP
+114: LC_FILESET_ENTRY            offset=0x00064cca0 addr=0xfffffff007650ca0 com.apple.driver.AppleMobileFileIntegrity
+115: LC_FILESET_ENTRY            offset=0x00065a700 addr=0xfffffff00765e700 com.apple.driver.AppleMultiFunctionManager
+116: LC_FILESET_ENTRY            offset=0x00065d470 addr=0xfffffff007661470 com.apple.driver.AppleMultitouchDriver
+117: LC_FILESET_ENTRY            offset=0x000663ae0 addr=0xfffffff007667ae0 com.apple.driver.AppleMultitouchSPI
+118: LC_FILESET_ENTRY            offset=0x0006642b0 addr=0xfffffff0076682b0 com.apple.driver.AppleNANDConfigAccess
+119: LC_FILESET_ENTRY            offset=0x0006648d0 addr=0xfffffff0076688d0 com.apple.driver.AppleOLYHAL
+120: LC_FILESET_ENTRY            offset=0x00066be10 addr=0xfffffff00766fe10 com.apple.driver.AppleOnboardSerial
+121: LC_FILESET_ENTRY            offset=0x00066def0 addr=0xfffffff007671ef0 com.apple.driver.AppleOrion
+122: LC_FILESET_ENTRY            offset=0x000670830 addr=0xfffffff007674830 com.apple.driver.ApplePIODMA
+123: LC_FILESET_ENTRY            offset=0x000671860 addr=0xfffffff007675860 com.apple.driver.ApplePMGR
+124: LC_FILESET_ENTRY            offset=0x000682350 addr=0xfffffff007686350 com.apple.driver.ApplePMP
+125: LC_FILESET_ENTRY            offset=0x000683ed0 addr=0xfffffff007687ed0 com.apple.driver.ApplePMPFirmware
+126: LC_FILESET_ENTRY            offset=0x0006848e0 addr=0xfffffff0076888e0 com.apple.driver.ApplePPMCPMS
+127: LC_FILESET_ENTRY            offset=0x000699a30 addr=0xfffffff00769da30 com.apple.driver.AppleParrot
+128: LC_FILESET_ENTRY            offset=0x00069a1c0 addr=0xfffffff00769e1c0 com.apple.driver.ApplePearlSEPDriver
+129: LC_FILESET_ENTRY            offset=0x0006aae00 addr=0xfffffff0076aee00 com.apple.driver.ApplePhoneBTM
+130: LC_FILESET_ENTRY            offset=0x0006b0410 addr=0xfffffff0076b4410 com.apple.driver.ApplePhotonDetector
+131: LC_FILESET_ENTRY            offset=0x0006b11d0 addr=0xfffffff0076b51d0 com.apple.driver.AppleProResHW
+132: LC_FILESET_ENTRY            offset=0x0006beb30 addr=0xfffffff0076c2b30 com.apple.driver.AppleProxDriver
+133: LC_FILESET_ENTRY            offset=0x0006c02a0 addr=0xfffffff0076c42a0 com.apple.driver.AppleS5L8920XPWM
+134: LC_FILESET_ENTRY            offset=0x0006c0df0 addr=0xfffffff0076c4df0 com.apple.driver.AppleS5L8940XI2C
+135: LC_FILESET_ENTRY            offset=0x0006c1d50 addr=0xfffffff0076c5d50 com.apple.driver.AppleS5L8960XNCO
+136: LC_FILESET_ENTRY            offset=0x0006c2430 addr=0xfffffff0076c6430 com.apple.driver.AppleS8000AES
+137: LC_FILESET_ENTRY            offset=0x0006c3e60 addr=0xfffffff0076c7e60 com.apple.driver.AppleS8000DWI
+138: LC_FILESET_ENTRY            offset=0x0006c46a0 addr=0xfffffff0076c86a0 com.apple.driver.AppleSART
+139: LC_FILESET_ENTRY            offset=0x0006c59f0 addr=0xfffffff0076c99f0 com.apple.driver.AppleSEPCredentialManager
+140: LC_FILESET_ENTRY            offset=0x0006d9df0 addr=0xfffffff0076dddf0 com.apple.iokit.AppleSEPGenericTransfer
+141: LC_FILESET_ENTRY            offset=0x0006db140 addr=0xfffffff0076df140 com.apple.driver.AppleSEPKeyStore
+142: LC_FILESET_ENTRY            offset=0x0006e11e0 addr=0xfffffff0076e51e0 com.apple.driver.AppleSEPManager
+143: LC_FILESET_ENTRY            offset=0x000700ff0 addr=0xfffffff007704ff0 com.apple.driver.AppleSMC
+144: LC_FILESET_ENTRY            offset=0x00070bd30 addr=0xfffffff00770fd30 com.apple.driver.AppleSMCWirelessCharger
+145: LC_FILESET_ENTRY            offset=0x0007103c0 addr=0xfffffff0077143c0 com.apple.driver.AppleSPIMC
+146: LC_FILESET_ENTRY            offset=0x0007121d0 addr=0xfffffff0077161d0 com.apple.driver.AppleSPMI
+147: LC_FILESET_ENTRY            offset=0x0007154c0 addr=0xfffffff0077194c0 com.apple.driver.AppleSPMIPMU
+148: LC_FILESET_ENTRY            offset=0x0007187a0 addr=0xfffffff00771c7a0 com.apple.driver.AppleSPU
+149: LC_FILESET_ENTRY            offset=0x00071fc10 addr=0xfffffff007723c10 com.apple.driver.AppleSPURose
+150: LC_FILESET_ENTRY            offset=0x0007246b0 addr=0xfffffff0077286b0 com.apple.driver.AppleSPUSphere
+151: LC_FILESET_ENTRY            offset=0x0007251d0 addr=0xfffffff0077291d0 com.apple.driver.AppleSSE
+152: LC_FILESET_ENTRY            offset=0x000727010 addr=0xfffffff00772b010 com.apple.driver.AppleSamsungSerial
+153: LC_FILESET_ENTRY            offset=0x0007277c0 addr=0xfffffff00772b7c0 com.apple.driver.AppleSerialShim
+154: LC_FILESET_ENTRY            offset=0x000727f90 addr=0xfffffff00772bf90 com.apple.driver.AppleSmartBatteryManagerEmbedded
+155: LC_FILESET_ENTRY            offset=0x000735d30 addr=0xfffffff007739d30 com.apple.driver.AppleSmartIO2
+156: LC_FILESET_ENTRY            offset=0x00073ab30 addr=0xfffffff00773eb30 com.apple.driver.AppleStockholmControl
+157: LC_FILESET_ENTRY            offset=0x00073f950 addr=0xfffffff007743950 com.apple.driver.AppleUSBCardReader
+158: LC_FILESET_ENTRY            offset=0x000741300 addr=0xfffffff007745300 com.apple.driver.AppleUSBMassStorageInterfaceNub
+159: LC_FILESET_ENTRY            offset=0x000741b90 addr=0xfffffff007745b90 com.apple.driver.AppleSynopsysMIPIDSI
+160: LC_FILESET_ENTRY            offset=0x000744910 addr=0xfffffff007748910 com.apple.driver.AppleT8030SOCTuner
+161: LC_FILESET_ENTRY            offset=0x000745390 addr=0xfffffff007749390 com.apple.driver.AppleT8110
+162: LC_FILESET_ENTRY            offset=0x00074e3c0 addr=0xfffffff0077523c0 com.apple.driver.AppleT8110CLPC
+163: LC_FILESET_ENTRY            offset=0x000752d20 addr=0xfffffff007756d20 com.apple.driver.AppleT8110DART
+164: LC_FILESET_ENTRY            offset=0x000755dc0 addr=0xfffffff007759dc0 com.apple.driver.AppleT8110PCIe
+165: LC_FILESET_ENTRY            offset=0x000758780 addr=0xfffffff00775c780 com.apple.driver.AppleT8110PMGR
+166: LC_FILESET_ENTRY            offset=0x00075cbd0 addr=0xfffffff007760bd0 com.apple.driver.AppleTemperatureSensor
+167: LC_FILESET_ENTRY            offset=0x00075e1e0 addr=0xfffffff0077621e0 com.apple.driver.AppleTopCaseHIDEventDriver
+168: LC_FILESET_ENTRY            offset=0x000760460 addr=0xfffffff007764460 com.apple.driver.AppleUSBTopCaseDriver
+169: LC_FILESET_ENTRY            offset=0x000760c40 addr=0xfffffff007764c40 com.apple.driver.AppleTriStar
+170: LC_FILESET_ENTRY            offset=0x000764ea0 addr=0xfffffff007768ea0 com.apple.driver.AppleTypeCPhy
+171: LC_FILESET_ENTRY            offset=0x0007683d0 addr=0xfffffff00776c3d0 com.apple.driver.AppleT8101TypeCPhy
+172: LC_FILESET_ENTRY            offset=0x000769890 addr=0xfffffff00776d890 com.apple.driver.AppleUSBAudio
+173: LC_FILESET_ENTRY            offset=0x00076d8c0 addr=0xfffffff0077718c0 com.apple.driver.usb.cdc
+174: LC_FILESET_ENTRY            offset=0x00076e120 addr=0xfffffff007772120 com.apple.driver.usb.AppleUSBCommon
+175: LC_FILESET_ENTRY            offset=0x00076ecb0 addr=0xfffffff007772cb0 com.apple.driver.AppleUSBDeviceAudioController
+176: LC_FILESET_ENTRY            offset=0x00076f700 addr=0xfffffff007773700 com.apple.driver.AppleUSBDeviceMux
+177: LC_FILESET_ENTRY            offset=0x000771110 addr=0xfffffff007775110 com.apple.driver.AppleUSBDeviceNCM
+178: LC_FILESET_ENTRY            offset=0x0007727b0 addr=0xfffffff0077767b0 com.apple.driver.usb.cdc.ecm
+179: LC_FILESET_ENTRY            offset=0x000773180 addr=0xfffffff007777180 com.apple.driver.usb.ethernet.asix
+180: LC_FILESET_ENTRY            offset=0x000774850 addr=0xfffffff007778850 com.apple.driver.AppleUSBEthernetDevice
+181: LC_FILESET_ENTRY            offset=0x000775ab0 addr=0xfffffff007779ab0 com.apple.driver.AppleUSBEthernetHost
+182: LC_FILESET_ENTRY            offset=0x000776ca0 addr=0xfffffff00777aca0 com.apple.driver.AppleUSBMike
+183: LC_FILESET_ENTRY            offset=0x000778900 addr=0xfffffff00777c900 com.apple.driver.usb.cdc.ncm
+184: LC_FILESET_ENTRY            offset=0x00077b4f0 addr=0xfffffff00777f4f0 com.apple.driver.usb.networking
+185: LC_FILESET_ENTRY            offset=0x00077c190 addr=0xfffffff007780190 com.apple.driver.AudioDMAController-T8110
+186: LC_FILESET_ENTRY            offset=0x00077fb70 addr=0xfffffff007783b70 com.apple.kec.Compression
+187: LC_FILESET_ENTRY            offset=0x000780010 addr=0xfffffff007784010 com.apple.iokit.CoreAnalyticsFamily
+188: LC_FILESET_ENTRY            offset=0x000783e80 addr=0xfffffff007787e80 com.apple.kext.CoreTrust
+189: LC_FILESET_ENTRY            offset=0x00078d2e0 addr=0xfffffff0077912e0 com.apple.driver.DCPAVFamilyProxy
+190: LC_FILESET_ENTRY            offset=0x000791330 addr=0xfffffff007795330 com.apple.driver.DCPDPFamilyProxy
+191: LC_FILESET_ENTRY            offset=0x000791f10 addr=0xfffffff007795f10 com.apple.iokit.IOMIPIFamily
+192: LC_FILESET_ENTRY            offset=0x000792990 addr=0xfffffff007796990 com.apple.EXBrightCalibrationConsumer
+193: LC_FILESET_ENTRY            offset=0x000793800 addr=0xfffffff007797800 com.apple.driver.ExclavesAudioKext
+194: LC_FILESET_ENTRY            offset=0x000799b20 addr=0xfffffff00779db20 com.apple.driver.FairPlayIOKit
+195: LC_FILESET_ENTRY            offset=0x0007de070 addr=0xfffffff0077e2070 com.apple.driver.IISAudioIsolatedStreamECProxy
+196: LC_FILESET_ENTRY            offset=0x0007def10 addr=0xfffffff0077e2f10 com.apple.iokit.IOAVFamily
+197: LC_FILESET_ENTRY            offset=0x000803e40 addr=0xfffffff007807e40 com.apple.iokit.IOAccessoryManager
+198: LC_FILESET_ENTRY            offset=0x000827df0 addr=0xfffffff00782bdf0 com.apple.iokit.IOAccessoryPortUSB
+199: LC_FILESET_ENTRY            offset=0x000828a20 addr=0xfffffff00782ca20 com.apple.iokit.IOAudio2Family
+200: LC_FILESET_ENTRY            offset=0x000829410 addr=0xfffffff00782d410 com.apple.driver.IOAudioCodecs
+201: LC_FILESET_ENTRY            offset=0x00082c360 addr=0xfffffff007830360 com.apple.iokit.IOBiometricFamily
+202: LC_FILESET_ENTRY            offset=0x00082efa0 addr=0xfffffff007832fa0 com.apple.iokit.IOCECFamily
+203: LC_FILESET_ENTRY            offset=0x00082f9e0 addr=0xfffffff0078339e0 com.apple.iokit.IOCryptoAcceleratorFamily
+204: LC_FILESET_ENTRY            offset=0x0008305a0 addr=0xfffffff0078345a0 com.apple.driver.IODARTFamily
+205: LC_FILESET_ENTRY            offset=0x000832b40 addr=0xfffffff007836b40 com.apple.iokit.IODisplayPortFamily
+206: LC_FILESET_ENTRY            offset=0x000845e00 addr=0xfffffff007849e00 com.apple.iokit.IOGPUFamily
+207: LC_FILESET_ENTRY            offset=0x000851d80 addr=0xfffffff007855d80 com.apple.iokit.IOGameControllerFamily
+208: LC_FILESET_ENTRY            offset=0x000855540 addr=0xfffffff007859540 com.apple.iokit.IOHDCPFamily
+209: LC_FILESET_ENTRY            offset=0x00085b7e0 addr=0xfffffff00785f7e0 com.apple.driver.DiskImages
+210: LC_FILESET_ENTRY            offset=0x00085cc80 addr=0xfffffff007860c80 com.apple.driver.DiskImages.FileBackingStore
+211: LC_FILESET_ENTRY            offset=0x00085d500 addr=0xfffffff007861500 com.apple.driver.DiskImages.KernelBacked
+212: LC_FILESET_ENTRY            offset=0x00085deb0 addr=0xfffffff007861eb0 com.apple.driver.DiskImages.RAMBackingStore
+213: LC_FILESET_ENTRY            offset=0x00085e550 addr=0xfffffff007862550 com.apple.driver.DiskImages.ReadWriteDiskImage
+214: LC_FILESET_ENTRY            offset=0x00085eb70 addr=0xfffffff007862b70 com.apple.driver.DiskImages.UDIFDiskImage
+215: LC_FILESET_ENTRY            offset=0x000862530 addr=0xfffffff007866530 com.apple.iokit.IOHIDFamily
+216: LC_FILESET_ENTRY            offset=0x00086b400 addr=0xfffffff00786f400 com.apple.driver.IOHIDPowerSource
+217: LC_FILESET_ENTRY            offset=0x00086c700 addr=0xfffffff007870700 com.apple.iokit.IOMikeyBusFamily
+218: LC_FILESET_ENTRY            offset=0x00086e460 addr=0xfffffff007872460 com.apple.iokit.IOMobileGraphicsFamily-DCP
+219: LC_FILESET_ENTRY            offset=0x000877a60 addr=0xfffffff00787ba60 com.apple.iokit.IOMobileGraphicsFamily
+220: LC_FILESET_ENTRY            offset=0x0008820f0 addr=0xfffffff0078860f0 com.apple.iokit.IONVMeFamily
+221: LC_FILESET_ENTRY            offset=0x0008933d0 addr=0xfffffff0078973d0 com.apple.iokit.IONetworkFamily
+222: LC_FILESET_ENTRY            offset=0x000893a10 addr=0xfffffff007897a10 com.apple.iokit.IONetworkingFamily
+223: LC_FILESET_ENTRY            offset=0x0008952a0 addr=0xfffffff0078992a0 com.apple.iokit.IOPCIFamily
+224: LC_FILESET_ENTRY            offset=0x0008a3050 addr=0xfffffff0078a7050 com.apple.iokit.IOPortFamily
+225: LC_FILESET_ENTRY            offset=0x0008a7050 addr=0xfffffff0078ab050 com.apple.iokit.IOReportFamily
+226: LC_FILESET_ENTRY            offset=0x0008a7e00 addr=0xfffffff0078abe00 com.apple.iokit.IOSCSIArchitectureModelFamily
+227: LC_FILESET_ENTRY            offset=0x0008a9d40 addr=0xfffffff0078add40 com.apple.iokit.IOSCSIBlockCommandsDevice
+228: LC_FILESET_ENTRY            offset=0x0008ab540 addr=0xfffffff0078af540 com.apple.iokit.IOSerialFamily
+229: LC_FILESET_ENTRY            offset=0x0008ac280 addr=0xfffffff0078b0280 com.apple.iokit.IOSkywalkFamily
+230: LC_FILESET_ENTRY            offset=0x0008b2120 addr=0xfffffff0078b6120 com.apple.driver.IOSlaveProcessor
+231: LC_FILESET_ENTRY            offset=0x0008b2830 addr=0xfffffff0078b6830 com.apple.iokit.IOSlowAdaptiveClockingFamily
+232: LC_FILESET_ENTRY            offset=0x0008b3510 addr=0xfffffff0078b7510 com.apple.iokit.IOStorageFamily
+233: LC_FILESET_ENTRY            offset=0x0008b5540 addr=0xfffffff0078b9540 com.apple.iokit.IOStreamFamily
+234: LC_FILESET_ENTRY            offset=0x0008b5cb0 addr=0xfffffff0078b9cb0 com.apple.iokit.IOSurface
+235: LC_FILESET_ENTRY            offset=0x0008bcf60 addr=0xfffffff0078c0f60 com.apple.IOTextEncryptionFamily
+236: LC_FILESET_ENTRY            offset=0x0008bd7f0 addr=0xfffffff0078c17f0 com.apple.iokit.IOTimeSyncFamily
+237: LC_FILESET_ENTRY            offset=0x0008cac10 addr=0xfffffff0078cec10 com.apple.iokit.IOUSBDeviceFamily
+238: LC_FILESET_ENTRY            offset=0x0008d0bf0 addr=0xfffffff0078d4bf0 com.apple.driver.AppleUSBXDCI
+239: LC_FILESET_ENTRY            offset=0x0008d93b0 addr=0xfffffff0078dd3b0 com.apple.driver.AppleUSBXDCIARM
+240: LC_FILESET_ENTRY            offset=0x0008e7c70 addr=0xfffffff0078ebc70 com.apple.iokit.IOUSBHostFamily
+241: LC_FILESET_ENTRY            offset=0x0008fcc90 addr=0xfffffff007900c90 com.apple.driver.usb.AppleSynopsysUSBXHCI
+242: LC_FILESET_ENTRY            offset=0x00090a3e0 addr=0xfffffff00790e3e0 com.apple.driver.usb.AppleUSBHostCompositeDevice
+243: LC_FILESET_ENTRY            offset=0x00090b050 addr=0xfffffff00790f050 com.apple.driver.usb.AppleUSBHostDeviceSupport
+244: LC_FILESET_ENTRY            offset=0x00090b7b0 addr=0xfffffff00790f7b0 com.apple.driver.AppleUSBHostMergeProperties
+245: LC_FILESET_ENTRY            offset=0x00090be70 addr=0xfffffff00790fe70 com.apple.driver.usb.AppleUSBHostPacketFilter
+246: LC_FILESET_ENTRY            offset=0x00090d060 addr=0xfffffff007911060 com.apple.driver.usb.AppleUSBHostiOSDevice
+247: LC_FILESET_ENTRY            offset=0x00090de60 addr=0xfffffff007911e60 com.apple.driver.usb.AppleUSBHub
+248: LC_FILESET_ENTRY            offset=0x000912300 addr=0xfffffff007916300 com.apple.driver.usb.AppleUSBXHCI
+249: LC_FILESET_ENTRY            offset=0x00091d2a0 addr=0xfffffff0079212a0 com.apple.driver.usb.IOUSBHostHIDDevice
+250: LC_FILESET_ENTRY            offset=0x00091ed40 addr=0xfffffff007922d40 com.apple.iokit.IOUSBMassStorageDriver
+251: LC_FILESET_ENTRY            offset=0x000921f00 addr=0xfffffff007925f00 com.apple.iokit.IOUserEthernet
+252: LC_FILESET_ENTRY            offset=0x000923210 addr=0xfffffff007927210 com.apple.plugin.IOgPTPPlugin
+253: LC_FILESET_ENTRY            offset=0x0009467b0 addr=0xfffffff00794a7b0 com.apple.security.Image4
+254: LC_FILESET_ENTRY            offset=0x0009521d0 addr=0xfffffff0079561d0 com.apple.nke.l2tp
+255: LC_FILESET_ENTRY            offset=0x000953270 addr=0xfffffff007957270 com.apple.nke.ppp
+256: LC_FILESET_ENTRY            offset=0x0009553e0 addr=0xfffffff0079593e0 com.apple.driver.RTBuddy
+257: LC_FILESET_ENTRY            offset=0x000961650 addr=0xfffffff007965650 com.apple.security.sandbox
+258: LC_FILESET_ENTRY            offset=0x000b605e0 addr=0xfffffff007b645e0 com.apple.driver.VideoProcessing
+259: LC_FILESET_ENTRY            offset=0x000b61060 addr=0xfffffff007b65060 com.apple.filesystems.apfs
+260: LC_FILESET_ENTRY            offset=0x000bb2430 addr=0xfffffff007bb6430 com.apple.driver.corecapture
+261: LC_FILESET_ENTRY            offset=0x000bb94b0 addr=0xfffffff007bbd4b0 com.apple.kec.corecrypto
+262: LC_FILESET_ENTRY            offset=0x000bce220 addr=0xfffffff007bd2220 com.apple.filesystems.lifs
+263: LC_FILESET_ENTRY            offset=0x000bd36f0 addr=0xfffffff007bd76f0 com.apple.driver.mDNSOffloadUserClient-Embedded
+264: LC_FILESET_ENTRY            offset=0x000bd4f70 addr=0xfffffff007bd8f70 com.apple.filesystems.tmpfs
+
+

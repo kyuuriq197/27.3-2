@@ -1,0 +1,43 @@
+﻿{
+    "IpswPath":  "C:\\Users\\Filimoshki\\Downloads\\iPhone14,5_27.3_24C5037i_Restore.ipsw",
+    "IpswBuild":  "24C5037i",
+    "ToolVersion":  "Version: 3.1.743, BuildCommit: b2c156960c79b0eefe0885dbb32cce7eef77cf2d",
+    "Results":  [
+                    {
+                        "Role":  "SystemOS",
+                        "ArchiveEntry":  "141-93752-026.dmg.aea",
+                        "Bytes":  8455716864,
+                        "Sha256":  "140649c4465be3c606f083d58ba85d7f2d9b8f6d80f3ebdbd90bffcfba7f73e6",
+                        "InfoParserSucceeded":  true,
+                        "WkmsMetadataFieldNames":  [
+                                                       "com.apple.wkms.auth-data",
+                                                       "com.apple.wkms.fcs-key-url",
+                                                       "com.apple.wkms.fcs-response",
+                                                       "com.apple.wkms.url"
+                                                   ],
+                        "ParserValuesPersisted":  false
+                    },
+                    {
+                        "Role":  "Cryptex SystemOS",
+                        "ArchiveEntry":  "141-94047-030.dmg.aea",
+                        "Bytes":  2415919104,
+                        "Sha256":  "c3bfebcb86b324748160b33559d8a5efc40955abc00ad842b2116409f82f83e1",
+                        "InfoParserSucceeded":  true,
+                        "WkmsMetadataFieldNames":  [
+                                                       "com.apple.wkms.auth-data",
+                                                       "com.apple.wkms.fcs-key-url",
+                                                       "com.apple.wkms.fcs-response",
+                                                       "com.apple.wkms.url"
+                                                   ],
+                        "ParserValuesPersisted":  false
+                    }
+                ],
+    "KeyLookupAttempted":  false,
+    "DecryptionAttempted":  false,
+    "Transcript":  "C:\\Users\\Filimoshki\\Downloads\\iphone14-5-ios-27-2-ipsw-analysis-main\\iphone14-5-ios-27-2-ipsw-analysis-main\\research\\ios-27.3\\logs\\aea-metadata-run.txt",
+    "Limitations":  [
+                        "AEA info output can contain cryptographic auth-data and wrapped-response fields; only field names, sizes, and hashes are persisted.",
+                        "No FCS key retrieval, private-key operation, decryption, or filesystem mount was performed.",
+                        "Header metadata parsing does not verify Apple provenance or prove decryption capability."
+                    ]
+}

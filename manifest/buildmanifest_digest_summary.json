@@ -1,0 +1,18 @@
+﻿{
+    "CheckedUtc":  "2026-11-06T18:03:22.8966208Z",
+    "IpswPath":  "C:\\Users\\Filimoshki\\Downloads\\iPhone14,5_27.3_24C5037i_Restore.ipsw",
+    "IdentityCount":  2,
+    "ManifestDigestRecords":  154,
+    "UniquePathAlgorithmHashesCalculated":  69,
+    "StatusCounts":  [
+                         {
+                             "Status":  "Match",
+                             "Count":  124
+                         },
+                         {
+                             "Status":  "Mismatch",
+                             "Count":  30
+                         }
+                     ],
+    "Scope":  "Compares BuildManifest Digest bytes against the SHA-256 or SHA-384 of the complete corresponding ZIP entry stream. A mismatch is reported without inferring corruption or cause."
+}

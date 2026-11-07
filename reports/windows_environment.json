@@ -1,0 +1,43 @@
+﻿{
+    "CollectedUtc":  "2026-11-06T17:30:18.2475677Z",
+    "ProjectRoot":  "C:\\Users\\Filimoshki\\Downloads\\iphone14-5-ios-27-2-ipsw-analysis-main\\iphone14-5-ios-27-2-ipsw-analysis-main",
+    "PowerShellVersion":  "5.1.26100.9711",
+    "Windows":  {
+                    "Caption":  "Microsoft Windows 11 Pro",
+                    "Version":  "10.0.26300",
+                    "BuildNumber":  "26300",
+                    "Architecture":  "64-bit"
+                },
+    "Hardware":  {
+                     "Cpu":  "AMD Ryzen 5 5600X 6-Core Processor             ",
+                     "LogicalProcessors":  12,
+                     "RamBytes":  34265858048,
+                     "RamGiB":  31.91,
+                     "ProjectDriveFreeBytes":  328506413056,
+                     "ProjectDriveFreeGiB":  305.95
+                 },
+    "Python":  "Command resolves, but execution failed (possible Microsoft Store app alias).",
+    "ToolsFound":  [
+                       {
+                           "Name":  "powershell.exe",
+                           "Path":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                       },
+                       {
+                           "Name":  "git.exe",
+                           "Path":  "C:\\Program Files\\Git\\cmd\\git.exe"
+                       },
+                       {
+                           "Name":  "python.exe",
+                           "Path":  "C:\\Users\\Filimoshki\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+                       },
+                       {
+                           "Name":  "rustc.exe",
+                           "Path":  "C:\\Users\\Filimoshki\\.cargo\\bin\\rustc.exe"
+                       },
+                       {
+                           "Name":  "cargo.exe",
+                           "Path":  "C:\\Users\\Filimoshki\\.cargo\\bin\\cargo.exe"
+                       }
+                   ],
+    "Notes":  "This script only creates project directories and records the local environment; it does not install software or change machine settings."
+}

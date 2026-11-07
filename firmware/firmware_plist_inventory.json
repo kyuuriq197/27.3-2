@@ -1,0 +1,276 @@
+﻿{
+    "IpswPath":  "C:\\Users\\Filimoshki\\Downloads\\iPhone14,5_27.3_24C5037i_Restore.ipsw",
+    "IpswBuild":  "24C5037i",
+    "ToolVersion":  "Version: 3.1.743, BuildCommit: b2c156960c79b0eefe0885dbb32cce7eef77cf2d",
+    "PlistCount":  22,
+    "ParsedCount":  22,
+    "Results":  [
+                    {
+                        "ArchiveEntry":  "Firmware/Mav21-7.20.01.Release.plist",
+                        "Bytes":  2603,
+                        "Sha256":  "979d701fa811254069bbfeee467a2a2c6df0bc3906d4223ff6612c5629d0e3b0",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  13,
+                        "TopLevelFieldNames":  [
+                                                   "ACDB-DownloadDigest",
+                                                   "BBCFG-DownloadDigest",
+                                                   "Misc-HashTableBody",
+                                                   "Misc-HashTableHeaderDefault",
+                                                   "Misc-PartialDigest",
+                                                   "RestoreSBL1-HashTableBody",
+                                                   "RestoreSBL1-HashTableHeaderDefault",
+                                                   "RestoreSBL1-PartialDigest",
+                                                   "RestoreSBL1-Version",
+                                                   "SBL1-HashTableBody",
+                                                   "SBL1-HashTableHeaderDefault",
+                                                   "SBL1-PartialDigest",
+                                                   "SBL1-Version"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/vinyl_07.plist",
+                        "Bytes":  1969,
+                        "Sha256":  "2dbf579a3220aa69be53821e009886d7c770748e9511f35a608c1ec3ef06c06d",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  2,
+                        "TopLevelFieldNames":  [
+                                                   "eUICC,Gold",
+                                                   "eUICC,Main"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/all_flash/lowpowerfindmymode@2532~iphone-lightning.im4p.plist",
+                        "Bytes":  331,
+                        "Sha256":  "9f563cceef73390bb4c587020a362ac4f52cc6f48baccf9064321c650eb12864",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "lpw1"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/all_flash/sep-firmware.d17.RELEASE.im4p.plist",
+                        "Bytes":  1236,
+                        "Sha256":  "eb82922c7e3612275045841e03c1d208dac2ce0b07b0e289f75d624e4c8a0c86",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  2,
+                        "TopLevelFieldNames":  [
+                                                   "rsep",
+                                                   "sepi"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.B0-Dev.fw.plist",
+                        "Bytes":  323,
+                        "Sha256":  "96a401e70e10b41027012b60a98edec815c17a279920b2a02e7e437b3516f7ea",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,B0-Dev-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.B0-Dev.vt.fw.plist",
+                        "Bytes":  319,
+                        "Sha256":  "8e8115da7be3a4cc1ada4a697e0934a44fa73711098131b1ce9aae4cf685ecff",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,B0-Dev-PatchVT"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.B0-Prod.fw.plist",
+                        "Bytes":  324,
+                        "Sha256":  "5c061edab5ecf3cce40cc360b9e3711f6591de87c709217fbc62069034c8c752",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,B0-Prod-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.B0-Prod.vt.fw.plist",
+                        "Bytes":  326,
+                        "Sha256":  "c5777df9c58c9c59f62116311322a503eadeec78770201c0264ddc05a38472db",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,B0-Prod-PatchVT"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.B2-Dev.fw.plist",
+                        "Bytes":  323,
+                        "Sha256":  "09afd0d792a1bda283581f2bb01eba90366b50e04d0e387afed24758ef0f81e4",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,B2-Dev-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.B2-Dev.vt.fw.plist",
+                        "Bytes":  325,
+                        "Sha256":  "e7dcc1b8ad764b7807d43767ec9c8732fea9b32833ef755a21712f9578ac6904",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,B2-Dev-PatchVT"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.B2-Prod.fw.plist",
+                        "Bytes":  324,
+                        "Sha256":  "1aee065ff18df032cf25ee01d9e0a6703ba10f00a6599aa58adf971d55601e99",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,B2-Prod-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.B2-Prod.vt.fw.plist",
+                        "Bytes":  326,
+                        "Sha256":  "4488b6f722e1474205e513a964d630ac14301e7d24d93ecc15b45e1fc386bb76",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,B2-Prod-PatchVT"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.BA-Dev.fw.plist",
+                        "Bytes":  323,
+                        "Sha256":  "247cdb617ba78625ed90887153f6319582b235e3bd2610fbcfa1e3b63ffa3772",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,BA-Dev-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.BA-Prod.fw.plist",
+                        "Bytes":  324,
+                        "Sha256":  "db35ff6a44dab03f779b70d31a3544cf45261224c9bb780d275a77916efe723a",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,BA-Prod-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.BE-Dev.fw.plist",
+                        "Bytes":  323,
+                        "Sha256":  "c13ac61ad322487444cf7e1b8a5b32cd7890011a40fcf358573050bfd8c91536",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,BE-Dev-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.BE-Prod.fw.plist",
+                        "Bytes":  324,
+                        "Sha256":  "5f5db7b6868bf55850a37b3daeef3e7a210c820e4f34331b4a7e3a4dbf365341",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,BE-Prod-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.BF-Dev.fw.plist",
+                        "Bytes":  323,
+                        "Sha256":  "76a9a7a924d31a4cfcbdd14d21b3d7810d70608e993323de940f168436b2462d",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,BF-Dev-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Savage/Savage.BF-Prod.fw.plist",
+                        "Bytes":  324,
+                        "Sha256":  "659918dc399650dd67d91fd9566f17162e542e633126b6830d181115bbb18f86",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "Savage,BF-Prod-Patch"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/SE/Stockholm7.RELEASE.sefw.plist",
+                        "Bytes":  205,
+                        "Sha256":  "7008c24fe245f8467cb49ff193fc58584a74a93910537b4ddd70e6a357ce504b",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "SE,UpdatePayload"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Veridian/X1862/DigestMap.der.plist",
+                        "Bytes":  317,
+                        "Sha256":  "bfacb43d1a781af07c7b27f979db6bebebff25ed709097599c50d12260fb62d2",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "BMU,DigestMap"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Veridian/X1862/FirmwareMap.plist",
+                        "Bytes":  487640,
+                        "Sha256":  "6ac43661c499d2444d22e9f7ceaf6f0358f74462944e0625898c926453c3cce2",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  4,
+                        "TopLevelFieldNames":  [
+                                                   "board_id",
+                                                   "digest_der",
+                                                   "hw_version",
+                                                   "product_id"
+                                               ]
+                    },
+                    {
+                        "ArchiveEntry":  "Firmware/Veridian/X1862/FirmwareMap.plist.plist",
+                        "Bytes":  319,
+                        "Sha256":  "b26ff437bf03461a7212b10395fc1387afb0497e64ed9fec2fe773666b479d2f",
+                        "ParseStatus":  "Parsed",
+                        "JsonRootType":  "object",
+                        "TopLevelFieldCount":  1,
+                        "TopLevelFieldNames":  [
+                                                   "BMU,FirmwareMap"
+                                               ]
+                    }
+                ],
+    "ValuesIncludedInPortableSummary":  false,
+    "DecodedValuesStoredInIgnoredData":  true,
+    "Limitations":  [
+                        "Portable output records archive path, hashes, JSON root type, and field names only.",
+                        "Decoded plist values are stored only under ignored local research data.",
+                        "Plist parsing does not validate signatures, firmware behavior, or security impact."
+                    ],
+    "Transcript":  "C:\\Users\\Filimoshki\\Downloads\\iphone14-5-ios-27-2-ipsw-analysis-main\\iphone14-5-ios-27-2-ipsw-analysis-main\\research\\ios-27.3\\logs\\firmware-plist-inventory-run.txt"
+}

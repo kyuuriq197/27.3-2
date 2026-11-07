@@ -1,0 +1,23 @@
+﻿{
+    "ComparedUtc":  "2026-11-06T18:43:43.2920849Z",
+    "PreviousSource":  "C:\\Users\\Filimoshki\\Downloads\\iphone14-5-ios-27-2-ipsw-analysis-main\\iphone14-5-ios-27-2-ipsw-analysis-main\\work\\kext_list.txt",
+    "CurrentSource":  "C:\\Users\\Filimoshki\\Downloads\\iphone14-5-ios-27-2-ipsw-analysis-main\\iphone14-5-ios-27-2-ipsw-analysis-main\\research\\ios-27.3\\kext\\kext_inventory_27.3.json",
+    "PreviousUniquePaths":  269,
+    "CurrentUniquePaths":  269,
+    "CurrentUniqueBundleIdentifiers":  269,
+    "Counts":  [
+                   {
+                       "Status":  "VersionStringChanged",
+                       "Count":  135
+                   },
+                   {
+                       "Status":  "SamePathAndVersionString",
+                       "Count":  134
+                   }
+               ],
+    "Limitations":  [
+                        "The previous source is a text list containing paths and version strings, not the original 27.2 kext metadata or binaries.",
+                        "Version-string changes do not prove binary, behavioral, or security changes.",
+                        "The current source is parsed kernelcache metadata; no kext binaries were extracted or compared."
+                    ]
+}
